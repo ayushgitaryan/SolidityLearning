@@ -1,0 +1,36 @@
+//SPDX-License-Identifier:MIT
+pragma solidity 0.8.7;
+contract answer{
+    //declarations of four variables
+    uint number;
+    int a;
+    string str;
+    address ad;
+
+    function setNumber(uint _number)public{
+        number=_number;
+        }
+
+    function getNumber()public view returns(uint){
+        return number;
+    }
+    function setNumberb(int _a)public{
+        a=_a;
+    }
+    function getNumberb()public view returns(int){
+        return a;
+    }
+    function setString(string memory _str)public{
+        str=_str;
+    }
+    function getString()public view returns(string memory){
+        return str;
+    }
+    function setaddress(address _ad)public{
+        ad=_ad;
+    }
+    function getaddress()public view returns(address){
+        return ad;
+    }
+
+}
